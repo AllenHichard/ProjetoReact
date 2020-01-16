@@ -1,0 +1,2 @@
+yarn create react-app web
+npx create-react-app web
