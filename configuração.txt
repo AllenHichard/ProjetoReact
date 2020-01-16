@@ -1,0 +1,71 @@
+Back-End
+na pasta 
+yarn init -y
+no projeto
+yarn add express
+
+Para Executar Um Arquivo
+node index.js
+
+No browser 
+instalar o Json viewer
+
+Para atualizar o browser sem reiniciar o servidor
+yarn add nodemon -D
+Executando
+yarn nodemon index.js
+
+Instalar o insomnia para testar as rotas
+para 32bits getpostman
+
+No mongoBD atlas
+1- Database access
+2- Add new user
+3- Network access
+	3.1- Allow access from anywhere (para qualquer um acessar)
+4- Clusters
+	4.1- Connect
+	4.2- Connect your aplication
+	4.3- Copy 
+
+Dentro da aplicação executar o comando
+yarn add mongoose
+
+Caso mesmo configurando os parametros na conexão do mongoose continue dando erro, talvez seja erro por causa de um proxy
+Para verificar basta digitar no browser: portquiz.net:27017
+Caso não esteja conectado, baixar o mongoDB na própria máquina
+
+
+yarn add axios para consumir dados de outras APIs'
+
+baixar o mongodb compass community
+Connect with MongoDB Compass
+
+
+----------------------------------------------------------------------------------------------------------------------
+// Métodos HTTP
+// get, post, put, delete
+// get = pegar informação
+// post = salvar/criar informação
+// put = editar informação
+// delete = apagar informação
+
+//Tipos de parâmetros
+// Query params : request.query (Filtrosl, ordenação, paginação...)
+// Route params : request.params (Identificar um recurso na alteração, remoção)
+// Body: request.body (dados para criação ou alteração de um registro)
+
+// MongoDB (não-relacional)
+// MongoDB Atlas (não precisa instalar) https://www.mongodb.com/cloud
+
+
+
+
+https://cursos.alura.com.br/forum/topico-subir-um-projeto-existente-para-o-github-64968
+git init
+https://github.com/user/repo.git
+git add
+git commit -m "primeiro commit
+git push origin master
+
+
