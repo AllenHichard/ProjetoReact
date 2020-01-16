@@ -1,2 +1,7 @@
+instalar o react
 yarn create react-app web
 npx create-react-app web
+
+para executar
+yarn start
+
