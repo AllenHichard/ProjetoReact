@@ -6,3 +6,23 @@ para executar
 yarn start
 
 https://fonts.google.com/specimen/Roboto
+
+se o autocomplete não estiver funcionando
+entrar em setting.json
+crtl shift p e digita open - setting- json.
+e coloca
+
+"emmet.syntaxProfiles":{
+	"javascript": "jsx",
+},
+
+"emmet.includeLanguages":{
+	"javascript": "javascriptreact",
+},
+
+seleciona e ctrl D altera tudo
+
+yarn add axios
+
+
+

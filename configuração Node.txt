@@ -1,4 +1,4 @@
-Back-End
+﻿Back-End
 na pasta 
 yarn init -y
 no projeto
@@ -67,5 +67,15 @@ https://github.com/user/repo.git
 git add
 git commit -m "primeiro commit
 git push origin master
+
+
+Para executar o backend é necessário fazer uma alteração
+Como o backend roda na 3333
+e o front end roda no 3000
+o react bloqueia o acesso, sendo necessário o desbloqueio
+
+para isso rodar os scripts:
+yarn add cors
+yarn dev
 
 
