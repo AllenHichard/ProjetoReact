@@ -5,3 +5,4 @@ npx create-react-app web
 para executar
 yarn start
 
+https://fonts.google.com/specimen/Roboto
