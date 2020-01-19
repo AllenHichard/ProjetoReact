@@ -1,0 +1,5 @@
+15:02
+Unable to resolve "@react-native-community/masked-view" from "node_modules\react-navigation-stack\lib\module\vendor\views\MaskedView.js
+ parecido com o outro no react native
+Está na apsta de instalação do stack 
+yarn add @react-native-community/masked-view

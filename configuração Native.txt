@@ -16,3 +16,11 @@ Set-ExecutionPolicy Unrestricted
 
 em caso de erro:
 expo commom issus reocketseat
+
+ferramentas de navegação entre telas:
+docs.expo.io - managed workflow - Routing navigator
+entra na página react navigation e roda:
+yarn add react-navigation
+por padrão é feito a navegação por pilha (feita por botão), porém tem por abas, drow(não sei se escreve assim), é uma navegação que puxa da esquerda pra direita por exemplo.
+yarn add react-navigation-stack
+
