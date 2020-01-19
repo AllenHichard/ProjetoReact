@@ -1,0 +1,18 @@
+Instalar o Expo
+yarn global add expo-cli
+npm install -g expo-cli
+Caso necessite de uma configuração a mais:
+Yarn global path
+Entra na página e pega o Adding the install location to your Path
+
+Depois de rodar o script
+expo init nomedoprojeto
+https://facebook.github.io/react-native/docs/getting-started
+entrar na pasta
+cd nomedoprojeto
+npm start
+Em caso de restrição
+Set-ExecutionPolicy Unrestricted 
+
+em caso de erro:
+expo commom issus reocketseat
