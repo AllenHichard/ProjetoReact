@@ -24,3 +24,32 @@ yarn add react-navigation
 por padrão é feito a navegação por pilha (feita por botão), porém tem por abas, drow(não sei se escreve assim), é uma navegação que puxa da esquerda pra direita por exemplo.
 yarn add react-navigation-stack
 
+
+Para instalar o mapa
+1 - docs.expo.io
+2 - API reference
+3 - MapView
+3 - expo install react-native-maps
+
+Para fazer a localização do usuário
+
+1 - expo install expo-location
+
+Mostrar o github do usuário web na aplicação
+WebView
+
+1 - expo install react-native-webview
+
+para acessar api
+
+yarn add axios
+
+
+localhost ip android emulator (obs: emulador do android visualizar o localhost)
+
+
+
+
+
+
+

@@ -24,7 +24,8 @@ module.exports = {
             },
         });
         console.log(techsArray);
-        return response.json({ message: "buscou"});
+        //return response.json({ message: "buscou"});
+        response.json({devs});
     }
 
 }
