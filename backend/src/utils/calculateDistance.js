@@ -4,8 +4,8 @@ function deg2rad(deg){
 
 module.exports = function getDistanceFromLatLonInKm(centerCoordinates, pointCoordinates){
     var radius = 6371; // Radius of the earth in km
-    const {latitude: lat1, longitude: long1} = centerCoordinates;
-    const {latitude: lat2, longitude: long2} = pointCoordinates;
+    const {latitude: lat1, longitude: lon1} = centerCoordinates;
+    const {latitude: lat2, longitude: lon2} = pointCoordinates;
     
     var dLat = deg2rad(lat2-lat1);  // deg2rad below
     var dLon = deg2rad(lon2-lon1); 

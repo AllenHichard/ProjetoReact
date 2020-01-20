@@ -48,7 +48,7 @@ module.exports = {
             // e que o novo dev tenha pelo menos uma das tecnologias filtradas
 
             const sendSocketMessageTo = findConnections(
-                {latitudem, longitude},
+                {latitude, longitude},
                  techsArray,
             )
 
