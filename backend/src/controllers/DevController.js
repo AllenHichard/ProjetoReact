@@ -40,10 +40,7 @@ module.exports = {
                 bio,
                 techs: techsArray,
                 location,
-            });
-
-
-
+            })
             // filtrar as conexões que estão há no máximo 10km de deistância
             // e que o novo dev tenha pelo menos uma das tecnologias filtradas
 
@@ -51,12 +48,9 @@ module.exports = {
                 {latitude, longitude},
                  techsArray,
             )
-
-            sendMenssage(sendSocketMessageTo,'new-dev', dev);    
-            //console.log(sendSocketMessageTo);
+            //console.log(sendSocketMessageTo); 
+            sendMenssage(sendSocketMessageTo,'new-dev', dev)   
             
-            
-
         }
     
         return response.json(dev);

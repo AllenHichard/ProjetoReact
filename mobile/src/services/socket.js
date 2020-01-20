@@ -5,10 +5,12 @@ const socket = socketio("http://192.168.0.110:3333",{
 });
 
 function subscribeToNewDevs(subcribeFunction){
+    //console.log("Adicionado");
     socket.on('new-dev', subcribeFunction)
 }
 
 function connect(latitude,longitude,techs){
+    //console.log(latitude, longitude, techs);
     socket.io.opts.query = {
         latitude,
         longitude,

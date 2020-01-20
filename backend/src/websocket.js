@@ -7,7 +7,7 @@ const connections = [];
 
 exports.setupWebsocket = (server) => {
     //console.log("ok");
-     io = socketio(server);
+    io = socketio(server);
 
     io.on('connection', socket =>{
         const {latitude, longitude, techs} = socket.handshake.query;
@@ -23,6 +23,7 @@ exports.setupWebsocket = (server) => {
         
         
         //console.log(socket.id);
+        console.log("quantidade de coneçoes",connections.length);
         //console.log(socket.handshake.query);
 
         /*setTimeout(()=>{
@@ -35,8 +36,14 @@ exports.setupWebsocket = (server) => {
 
 
 exports.findConnections = (coordinates, techs) => {
+    console.log(coordinates)
     return connections.filter(connection=>{
-        return calculateDistance(coordinates, connection.coordinates) < 10
+        console.log("Teste")
+        console.log(connection.coordinates);
+        console.log(calculateDistance(coordinates, connection.coordinates))
+        console.log(calculateDistance(coordinates, connection.coordinates)<400)
+        console.log(connection.techs.some(item => techs.includes(item)))
+        return calculateDistance(coordinates, connection.coordinates) < 400
         && connection.techs.some(item => techs.includes(item))
     });
 }
