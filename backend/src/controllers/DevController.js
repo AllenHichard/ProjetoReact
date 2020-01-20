@@ -54,7 +54,7 @@ module.exports = {
 
             sendMenssage(sendSocketMessageTo,'new-dev', dev);    
             //console.log(sendSocketMessageTo);
-
+            
             
 
         }
