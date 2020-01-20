@@ -1,0 +1,6 @@
+no backend
+yarn add socket.io
+protocolo websocket 
+
+no mobile
+yarn add socket.io-client
